@@ -1,0 +1,44 @@
+accessWidener	v2	named
+accessible	class	net/minecraft/client/world/ClientChunkManager$ClientChunkMap
+accessible	field	net/minecraft/client/world/ClientChunkManager$ClientChunkMap	chunks	Ljava/util/concurrent/atomic/AtomicReferenceArray;
+accessible	class	net/minecraft/world/chunk/PalettedContainer$Data
+accessible	class	net/minecraft/client/render/BackgroundRenderer$FogData
+accessible	class	net/minecraft/client/render/RenderLayer$MultiPhaseParameters
+accessible	class	net/minecraft/client/render/RenderLayer$MultiPhase
+accessible	method	net/minecraft/client/render/RenderLayer	of	(Ljava/lang/String;Lnet/minecraft/client/render/VertexFormat;Lnet/minecraft/client/render/VertexFormat$DrawMode;IZZLnet/minecraft/client/render/RenderLayer$MultiPhaseParameters;)Lnet/minecraft/client/render/RenderLayer$MultiPhase;
+accessible	field	net/minecraft/client/render/RenderLayer$MultiPhase	phases	Lnet/minecraft/client/render/RenderLayer$MultiPhaseParameters;
+accessible	field	net/minecraft/client/render/RenderLayer$MultiPhaseParameters	texture	Lnet/minecraft/client/render/RenderPhase$TextureBase;
+accessible	class	net/minecraft/client/render/RenderPhase$Target
+accessible	class	net/minecraft/client/render/RenderPhase$Texture
+accessible	class	net/minecraft/client/render/RenderPhase$TextureBase
+accessible	method	net/minecraft/client/render/RenderPhase$TextureBase	getId	()Ljava/util/Optional;
+accessible	field	net/minecraft/client/render/RenderPhase	COLOR_PROGRAM	Lnet/minecraft/client/render/RenderPhase$ShaderProgram;
+accessible	field	net/minecraft/client/render/RenderPhase	VIEW_OFFSET_Z_LAYERING	Lnet/minecraft/client/render/RenderPhase$Layering;
+accessible	field	net/minecraft/client/render/RenderPhase	TRANSLUCENT_TRANSPARENCY	Lnet/minecraft/client/render/RenderPhase$Transparency;
+accessible	field	net/minecraft/client/render/RenderPhase	NO_TEXTURE	Lnet/minecraft/client/render/RenderPhase$TextureBase;
+accessible	method	net/minecraft/recipe/RecipeManager	apply	(Ljava/util/Map;Lnet/minecraft/resource/ResourceManager;Lnet/minecraft/util/profiler/Profiler;)V
+accessible	class	net/minecraft/client/render/MapRenderer$MapTexture
+accessible	field	net/minecraft/client/render/MapRenderer$MapTexture	texture	Lnet/minecraft/client/texture/NativeImageBackedTexture;
+accessible	field	net/minecraft/client/render/MapRenderer$MapTexture	state	Lnet/minecraft/item/map/MapState;
+accessible	class	net/minecraft/client/gui/screen/ingame/MerchantScreen$WidgetButtonPage
+accessible	field	net/minecraft/screen/MerchantScreenHandler	OUTPUT_ID	I
+accessible	field	net/minecraft/screen/MerchantScreenHandler	INVENTORY_START	I
+accessible	field	net/minecraft/screen/MerchantScreenHandler	HOTBAR_END	I
+accessible	field	com/mojang/blaze3d/systems/RenderSystem	renderThread	Ljava/lang/Thread;
+accessible	field	com/mojang/blaze3d/systems/RenderSystem	shaderLightDirections	[Lorg/joml/Vector3f;
+accessible	method	net/minecraft/client/render/entity/EntityRenderer	getSkyLight	(Lnet/minecraft/entity/Entity;Lnet/minecraft/util/math/BlockPos;)I
+accessible	method	net/minecraft/client/render/entity/EntityRenderer	getBlockLight	(Lnet/minecraft/entity/Entity;Lnet/minecraft/util/math/BlockPos;)I
+accessible	method	net/minecraft/client/render/entity/EntityRenderer	hasLabel	(Lnet/minecraft/entity/Entity;)Z
+accessible	method	net/minecraft/client/render/entity/EntityRenderer	renderLabelIfPresent	(Lnet/minecraft/entity/Entity;Lnet/minecraft/text/Text;Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;IF)V
+accessible	field	net/minecraft/client/render/entity/EntityRenderer	shadowRadius	F
+accessible	field	net/minecraft/client/render/entity/EntityRenderer	shadowOpacity	F
+accessible	method	net/minecraft/recipe/RecipeManager	deserialize	(Lnet/minecraft/util/Identifier;Lcom/google/gson/JsonObject;Lnet/minecraft/registry/RegistryWrapper$WrapperLookup;)Lnet/minecraft/recipe/RecipeEntry;
+accessible	field	net/minecraft/client/gui/hud/InGameHud	CROSSHAIR_ATTACK_INDICATOR_BACKGROUND_TEXTURE	Lnet/minecraft/util/Identifier;
+accessible	field	net/minecraft/client/gui/hud/InGameHud	CROSSHAIR_ATTACK_INDICATOR_PROGRESS_TEXTURE	Lnet/minecraft/util/Identifier;
+accessible	method	net/minecraft/item/Item	raycast	(Lnet/minecraft/world/World;Lnet/minecraft/entity/player/PlayerEntity;Lnet/minecraft/world/RaycastContext$FluidHandling;)Lnet/minecraft/util/hit/BlockHitResult;
+accessible	method	net/minecraft/block/AbstractBlock	getFluidState	(Lnet/minecraft/block/BlockState;)Lnet/minecraft/fluid/FluidState;
+accessible	field	net/minecraft/client/gui/hud/BossBarHud	BACKGROUND_TEXTURES	[Lnet/minecraft/util/Identifier;
+accessible	field	net/minecraft/client/gui/hud/BossBarHud	PROGRESS_TEXTURES	[Lnet/minecraft/util/Identifier;
+accessible	field	net/minecraft/client/gui/hud/BossBarHud	NOTCHED_BACKGROUND_TEXTURES	[Lnet/minecraft/util/Identifier;
+accessible	field	net/minecraft/client/gui/hud/BossBarHud	NOTCHED_PROGRESS_TEXTURES	[Lnet/minecraft/util/Identifier;
+accessible	method	net/minecraft/loot/context/LootContext	<init>	(Lnet/minecraft/loot/context/LootContextParameterSet;Lnet/minecraft/util/math/random/Random;Lnet/minecraft/registry/RegistryEntryLookup$RegistryLookup;)V
